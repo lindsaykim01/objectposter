@@ -4,9 +4,17 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<title></title>
 </head>
-<body><center>
+<body>
+	    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script><center>
 <br><br><p class="imgfilters">
 		<a href="index.html"><img src="assets/5.jpg" width=500px></a>
 	</p>
+	 <input type="button" value="PLAY" onclick="play()">
+    <audio id="audio" src="http://dev.interactive-creation-works.net/1/1.ogg"></audio>
 </body>
 </html>
